@@ -1,4 +1,47 @@
-body {
-    padding: 0;
-    margin: 0;
+body{
+    /* height: 100%; */
+    background-color: #1E3163;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+}
+
+.body-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(200, 200, 200, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(177, 179, 203, 0.15);
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 80vw;
+    height: 80vh;
+}
+.song-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    background: rgba(200, 200, 200, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(177, 179, 203, 0.15);
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 30px;
+    width: fit-content;
+}
+
+.image{
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+}
+
+img{
+    padding: 20px;
 }
